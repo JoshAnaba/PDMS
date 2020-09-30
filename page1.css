@@ -1,0 +1,42 @@
+*{
+    font-family: "Lato";
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #E5E5E5;
+    height: 4170px;
+}
+
+header{
+    position: fixed;
+    width: 1440px;
+    height: 125px;
+    background: #ffffff;
+    box-shadow: 0px 4px 1px
+    rgba(193, 193, 193, 0.25);
+}
+
+header ul{
+    list-style: none;
+    display: inline;
+}
+
+span{
+    width: 212px;
+    height: 74px;
+    border-radius: 5px;
+    background: #3151fb;
+}
+
+.whatWeDo{
+    background: inherit;
+    border: #3151fb;
+}
+
+section{
+    height: 940px;
+    width: 1440px;
+}
