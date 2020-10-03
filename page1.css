@@ -210,10 +210,6 @@ h3{
     height: 70px;
 }
 
-.five>.txt{
-    justify-content: space-between;
-}
-
 .cc{
     font-size: 25px;
 }
@@ -257,10 +253,6 @@ h3{
         align-items: center;
     }
 
-    .cd,.card,.cd-1,.cd-2,.cd-5{
-        /* height:  70% auto; */
-    }
-
     .sub-1{
         align-items: center;
         justify-content: center;
@@ -271,7 +263,6 @@ h3{
     .sub-2{
         margin-top: 0;
     }
-
 
     .cd-1,.cd-2{
         right: 0;
@@ -302,6 +293,9 @@ h3{
 @media (max-width:600px) {
     nav>ul{
         flex-direction: column;
+        align-items: center;
+        margin: 0;
+        padding: 0;
     }
     .one{
         padding-top: 100px;
@@ -311,5 +305,3 @@ h3{
         margin-bottom: 70px;
     }
 }
-
-
