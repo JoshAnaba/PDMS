@@ -208,27 +208,52 @@ h3{
 
 @media (max-width: 700px) {
 
+    .body{
+        font-size: 15px;
+    }
+
+    section{
+        height: auto;
+    }
+
     .one,.two,.three,.four,.five{
         flex-direction: column;
         width: 100%;
         align-items: center;
-        margin-top: 400px;
+        height: auto;
         text-align: center;
+    }
+
+    .one{
+        margin-top: 100px;
     }
 
     .txt{
         align-items: center;
         order: 1;
+        width: 80%;
     }
 
     .cd,.card{
         order:2;
         width: 80%;
         margin: 30px 0 30px 0;
+        align-items: center;
+    }
+
+    .cd,.card,.cd-1,.cd-2,.cd-5{
+        height: 80% auto;
     }
 
     .sub-1{
         align-items: center;
+        justify-content: center;
+        padding: 10px;
+        margin: 10px;
+    }
+
+    .sub-2{
+        margin-top: 0;
     }
 
     .cd-1,.cd-2{
@@ -255,6 +280,10 @@ h3{
         padding: 0;
         margin: 0;
     }
+}
 
-
+@media (max-width:600px) {
+    nav>ul{
+        flex-direction: column;
+    }
 }
